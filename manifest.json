@@ -1,0 +1,8 @@
+{
+  "short_name": "AmanPortfolio",
+  "name": "Aman Qureshi - Portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#202020",
+  "background_color": "#ffffff"
+}
