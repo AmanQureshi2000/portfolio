@@ -1,6 +1,6 @@
 import React from 'react';
 import resumeData from '../data/resumeData';
-import './Skills.css';
+import '../styles/Skills.css'; 
 
 const categoryIcons = {
   frontend: 'bi bi-code-slash',

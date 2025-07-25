@@ -1,6 +1,6 @@
 import React from 'react';
 import resumeData from '../data/resumeData';
-import './Hero.css';
+import '../styles/Hero.css'; 
 
 export default function Hero() {
   const { name, contact } = resumeData;
