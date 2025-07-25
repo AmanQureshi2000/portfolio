@@ -7,12 +7,15 @@ import Projects from './components/Projects';
 import Education from './components/Education';
 import Achievements from './components/Achievements';
 import Contact from './components/Contact';
+import FractalTree from './components/FractalTree';
+import Footer from './components/Footer';
 import './styles/App.css';
 
 function App() {
   return (
-    <div>
+    <div style={{ background: 'black' }}>
       <Navbar />
+      <FractalTree />
       <Hero />
       <Skills />
       <Experience />
@@ -20,6 +23,7 @@ function App() {
       <Education />
       <Achievements />
       <Contact />
+      <Footer />
     </div>
   );
 }

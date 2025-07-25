@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav style={{ textAlign: 'center', padding: '20px', color: '#fff' }}>
       <ul>
         <li><a href="#hero">Home</a></li>
         <li><a href="#skills">Skills</a></li>
