@@ -2,7 +2,16 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <nav style={{ textAlign: 'center', padding: '20px', color: '#fff',position: 'fixed', width: '100%', top: 0 }}>
+    <nav style={{
+    textAlign: 'center',
+    color: '#000000e2',
+    position: 'fixed',
+    width: '100%',
+    top: 0,
+    backgroundColor: 'black',
+    zIndex: 1000, // Add this to stay above other content
+    fontWeight: 'bold',
+  }}>
       <ul>
         <li><a href="#hero">Home</a></li>
         <li><a href="#skills">Skills</a></li>

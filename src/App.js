@@ -15,15 +15,18 @@ function App() {
   return (
     <div style={{ background: 'black' }}>
       <Navbar />
-      <FractalTree />
-      <Hero />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Education />
-      <Achievements />
-      <Contact />
-      <Footer />
+      {/* Add paddingTop to account for fixed navbar height */}
+      <div style={{ paddingTop: '80px' }}>
+        <FractalTree />
+        <Hero />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Education />
+        <Achievements />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
