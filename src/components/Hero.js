@@ -15,10 +15,6 @@ export default function Hero() {
         />
         <h1 className="hero-title">{name}</h1>
         <p className="hero-subtitle">Full Stack Engineer | Problem Solver | Rapid App Builder</p>
-        <div className="hero-contacts">
-          <a href={`mailto:${contact.email}`} className="hero-btn">Email</a>
-          <a href={contact.linkedin} className="hero-btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </div>
       </div>
     </section>
   );
