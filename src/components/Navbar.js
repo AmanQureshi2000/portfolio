@@ -38,7 +38,7 @@ export default function Navbar() {
             <a href="mailto:amanq2000@gmail.com"
               target="_blank" 
               rel="noopener noreferrer" 
-              title="Visit my LinkedIn"
+              title=""
               style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px' }}>
               <MdEmail size={20} />
             </a>
@@ -59,7 +59,7 @@ export default function Navbar() {
               href="https://medium.com/@amanq2000"
               target="_blank" 
               rel="noopener noreferrer" 
-              title="Visit my LinkedIn"
+              title="Visit my Medium"
               style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px' }}
             >
               <FaMedium size={20} />
