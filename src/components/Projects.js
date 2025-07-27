@@ -12,9 +12,20 @@ export default function Projects() {
             <h3>{proj.title}</h3>
             <p>{proj.description}</p>
             <div className="project-tags">
-              {proj.technologies?.map((tech, i) => <span key={i} className="tag">{tech}</span>)}
+              {proj.technologies?.map((tech, i) => (
+                <span key={i} className="tag">{tech}</span>
+              ))}
             </div>
-            <a href={proj.url || '#'} target="_blank" rel="noopener noreferrer" className="project-link">View Project</a>
+            {proj.url && proj.url !== '#' && (
+              <a
+                href={proj.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+              >
+                View Project
+              </a>
+            )}
           </div>
         ))}
       </div>

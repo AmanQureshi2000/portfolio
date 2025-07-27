@@ -48,6 +48,12 @@ const resumeData = {
       description: "Data dashboard for user metrics, filtered, with dynamic charts.",
       technologies: ["React.js", "PHP", "PostgreSQL", "Chart.js"],
       url: "#"
+    },
+    {
+      title: "Youtube Data App",
+      description: "Data dashboard for youtube channels, showing subscribers, views and other data",
+      technologies: ["React.js", "Node.js", "YouTube API"],
+      url: "https://youtubeapp-nb35.onrender.com/"
     }
   ],
   achievements: ["‘Pillar of Success of the Month’ at IndiaMART, Aug 2023"],
