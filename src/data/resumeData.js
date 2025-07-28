@@ -50,7 +50,7 @@ const resumeData = {
       url: "#"
     },
     {
-      title: "Youtube Data App",
+      title: "Youtuber Data App",
       description: "Data dashboard for youtube channels, showing subscribers, views and other data",
       technologies: ["React.js", "Node.js", "YouTube API"],
       url: "https://youtubeapp-nb35.onrender.com/"
